@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+}
+
+.col {
+  flex-grow: 1;
+}
+
+.column-1 {
+  background-color: #4A90E2;
+}
+
+.column-2 {
+  background-color: #50E3C2;
+}
+
+.column-3 {
+  display: flex;
+  align-items: flex-end;
+  background-color: #B8E986;
+}
+
+.image {
+  height: 175px;
+  flex-grow: 1;
+  background-image: url('http://cdn3-www.dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg');
+  background-size: cover;
+}

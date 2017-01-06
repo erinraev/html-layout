@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background: #D8D8D8;
+}
+
+.logo {
+  height: 75px;
+  width: 75px;
+  background-image: url('http://www.squishable.com/mm5/graphics/00000001/squish_corgi_15.jpg');
+  background-size: cover;
+  margin-left: 25px;
+}
+
+.text-area {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 205px;
+}
+
+.text-area p {
+  color: #444444;
+  font-size: 20px;
+  padding: 0 10%;
+}
+
+.row {
+  height: 100px;
+}
+
+.row-1 {
+  background: #4A90E2;
+}
+.row-2 {
+  background: #50E3C2;
+}
+.row-3 {
+  background: #B8E986;
+}
+.row-4 {
+  background: #F8E71C;
+}
